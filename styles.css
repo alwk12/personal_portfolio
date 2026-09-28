@@ -70,7 +70,7 @@ section h1 {
 
              /* About section */
 #about {
-    text-align: center;
+    text-align: left;
 }
 
 #about p {
@@ -116,21 +116,28 @@ section h1 {
 #contact {
     text-align: left;
 }
+
 #contact ul {
+    display: inline-block;
+    padding: 0;
     list-style: none;
     text-align: left;
 }
+
 #contact ul li {
     margin: 12px 0;
 }
+
 #contact a {
     color: #c7a4ff;
+    text-decoration: none;
 }
+
 #contact a:hover {
     color: white;
 }
 
-                     
+                     /* Footer */
 #footer {
     padding: 18px;
     background-color: #333;
